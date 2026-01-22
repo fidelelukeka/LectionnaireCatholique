@@ -9,7 +9,7 @@ desugar_jdk_libs = "2.1.5"
 room = "2.8.4"
 gson = "2.13.2"
 
-datastore = "1.1.2"
+datastore = "1.2.0"
 
 # Lifecycle & UI
 lifecycle = "2.10.0"

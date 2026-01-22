@@ -2,9 +2,6 @@ package com.lukekadigitalservices.lectionnairecatholique.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.luminance
-import com.lukekadigitalservices.lectionnairecatholique.ui.theme.LiturgiqueBlanc
-import com.lukekadigitalservices.lectionnairecatholique.ui.theme.LiturgiqueBlancDark
 import com.lukekadigitalservices.lectionnairecatholique.ui.theme.LiturgiqueRose
 import com.lukekadigitalservices.lectionnairecatholique.ui.theme.LiturgiqueRoseDark
 import com.lukekadigitalservices.lectionnairecatholique.ui.theme.LiturgiqueRouge

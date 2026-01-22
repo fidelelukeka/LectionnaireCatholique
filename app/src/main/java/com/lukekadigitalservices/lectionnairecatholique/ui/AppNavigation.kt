@@ -159,7 +159,7 @@ fun AppNavigation(viewModel: LiturgieViewModel, themeSettings: ThemeSettings) {
                         modifier = Modifier.padding(paddingValues),
                         response = successData,
                         selectedMesseIndex = selectedMesseIndex,
-                        viewModel = viewModel, // viewModel injecté ici, remplace le TODO()
+                        viewModel = viewModel,
                         accentColor = accentColor
                     )
                 }

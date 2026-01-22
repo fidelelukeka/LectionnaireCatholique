@@ -1,7 +1,6 @@
 package com.lukekadigitalservices.lectionnairecatholique.ui
 
 import android.graphics.Typeface
-import android.text.method.LinkMovementMethod
 import android.util.TypedValue
 import android.widget.TextView
 import androidx.compose.material3.MaterialTheme

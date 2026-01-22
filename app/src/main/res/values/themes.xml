@@ -4,9 +4,9 @@
     </style>
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#5D2D7D</item>
+        <item name="windowSplashScreenBackground">@color/bg</item>
 
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo_lectionnaire</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
 
         <item name="windowSplashScreenAnimationDuration">200</item>
 

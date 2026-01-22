@@ -133,7 +133,7 @@ fun LecturesScreen(
                 // Affichage du Degré (Mémoire, Mémoire facultative, Solennité)
                 if (!info.ligne3.isNullOrEmpty() && info.ligne3 != info.fete) {
                     Text(
-                        text = info.ligne3!!,
+                        text = info.ligne3,
                         style = MaterialTheme.typography.labelMedium,
                         color = MaterialTheme.colorScheme.secondary.copy(alpha = 0.8f)
                     )
@@ -278,7 +278,7 @@ fun LectureCard(
                     if (!animLecture.titre.isNullOrEmpty()) {
                         // Affichage du Titre Standard pour les Lectures/Évangiles
                         Text(
-                            text = animLecture.titre!!,
+                            text = animLecture.titre,
                             style = MaterialTheme.typography.titleLarge,
                             fontWeight = FontWeight.Black,
                             lineHeight = 28.sp,
@@ -340,7 +340,7 @@ fun LectureCard(
 
                     // --- SECTION ACCLAMATION (Uniquement Évangile) ---
                     if (animLecture.type.lowercase().contains("evangile") && !animLecture.versetEvangile.isNullOrEmpty()) {
-                        AcclamationSection(animLecture.versetEvangile!!, accentColor)
+                        AcclamationSection(animLecture.versetEvangile, accentColor)
                     }
                 }
             }
